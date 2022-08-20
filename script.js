@@ -98,8 +98,12 @@ function adicionaImagens() {
 ////////////////////////////////////////////////////////////////////////////////
 
 function reiniciarJogo() {
-  console.log('vamos reiniciar')
-  document.querySelector(".container-parabens").style.display = 'none'
+
+  var containerParabens = document.querySelectorAll(".container-parabens")
+  for (var i = 0; i < containerParabens.length; i++) {
+    containerParabens[i].style.display = 'none'
+  }
+
   container.style.display = 'flex'
 
   for (var i = 0; i < cards.length; i++) {

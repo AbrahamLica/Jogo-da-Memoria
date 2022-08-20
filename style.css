@@ -1,3 +1,5 @@
+/* ////////////////// Configurações gerais //////////////////////// */
+
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
 * {
@@ -16,22 +18,25 @@ body {
 
 h1 {
   margin-bottom: 5px;
-  font-size: 45px;
+  font-size: 40px;
   margin-top: 10px;
 }
+
+/* //////////////////////// Container principal ///////////////////////////// */
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 25px;
   width: 600px;
-  height: 600px;
+  height: 570px;
   background-color: black;
-  margin: 0 0 3em;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 7px;
   border-radius: 15px;
 }
+
+/* //////////////////////// Container Parabéns ///////////////////////////// */
 
 .container-parabens{
   display: none;
@@ -45,35 +50,6 @@ h1 {
   background-color: white;
   border-radius: 15px;
 }
-
-.card-img {
-  background-color: white;
-  display: block;
-  width: 125px;
-  height: 125px;
-  border-radius: 15px;
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  cursor: pointer;
-}
-
-.img {
-  display: none;
-  border-radius: 15px;
-  width: 115px;
-  height: 115px;
-  cursor: pointer;
-}
-
-.block {
-  display: block;
-}
-
-.none {
-  display: none;
-}
-
-
 
 .container-parabens h1{
   text-align: center;
@@ -92,4 +68,43 @@ h1 {
   font-size: 30px;
   padding: 10px;
   cursor: pointer;
+}
+
+/* //////////////////////// Cards ///////////////////////////// */
+
+.card-img {
+  background-color: white;
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.img {
+  display: none;
+  border-radius: 15px;
+  width: 115px;
+  height: 115px;
+  cursor: pointer;
+}
+
+/* //////////////////////// Classes auxiliares ///////////////////////////// */
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
+/* //////////////////////// Footer ///////////////////////////// */
+
+footer{
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: bold;
 }
