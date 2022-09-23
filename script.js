@@ -77,7 +77,7 @@ function verificarJogo() {
     container.style.display = 'none'
 
     var parabens = document.querySelector(".container-parabens").cloneNode(true)
-    var addParabens = document.body.appendChild(parabens)
+    var addParabens = document.querySelector('.container-master').appendChild(parabens)
     parabens.style.display = 'flex'
   }
 }
