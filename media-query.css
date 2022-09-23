@@ -1,0 +1,52 @@
+/* ////////////////////// Media Queries ////////////////////// */
+@media (max-width: 1024px) {
+  .container {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+    .container {
+      width: 60%;
+      height: 80vh;
+    }
+
+    .card-img {
+      width: 20%;
+      height: 20%;
+    }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 2em;
+  }
+  .container {
+    width: 80%;
+    height: 60vh;
+  }
+
+  .card-img {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+@media (max-width: 375px) { 
+  .container {
+    width: 90%;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 320px) { 
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .container {
+    width: 90%;
+    height: 50vh;
+  }
+}
